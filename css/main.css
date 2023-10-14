@@ -1,0 +1,74 @@
+/* Cole Breen 8939986 */
+body{
+    Width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font: 18px Arial, sans-serif;
+    padding: 50px;
+}
+.Name{
+    border: 5px solid orange;
+    border-radius: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-variant: small-caps;
+    color: blue;
+}
+h2{
+    font-variant: small-caps;
+    color: blue;
+}
+footer p{
+    font-size: 10px;
+    color: blue;
+}
+main{
+    width: 730px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    
+
+}
+aside{
+    width: 330px;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    
+}
+footer{
+    border: 5px solid orange;
+    border-radius: 25px;
+    padding: 5px;
+    clear: both;
+}
+.jpg{
+    border: 5px solid orange;
+}
+figcaption{
+    font-style: bold;
+    font-variant: small-caps;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 30px;
+}
+ul li{
+    list-style-type: none;
+    line-height: 1.5;
+    
+}
+ul > li a{
+    text-decoration: none;
+    color: orange;
+    
+}
+a:hover{
+    color: blue;
+}
+
