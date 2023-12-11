@@ -4,14 +4,14 @@ body{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    font: 18px Arial, sans-serif;
-    padding: 50px;
+    font: 1rem Arial, sans-serif;
+    padding: 5rem;
 }
 .Name{
     border: 5px solid orange;
     border-radius: 25px;
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
 }
 h1{
     font-variant: small-caps;
@@ -27,23 +27,24 @@ footer p{
 }
 main{
     width: 730px;
-    padding: 10px;
-    margin: 10px;
-    float: left;
-    
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
 
 }
 aside{
-    width: 330px;
-    padding: 10px;
-    margin: 10px;
+    width: 20rem;
+    height: 50rem;
+    padding: 1rem;
+    margin: 1rem;
     float: right;
+    background: url('/images/gretzky.jpeg') no-repeat center; 
     
 }
 footer{
     border: 5px solid orange;
     border-radius: 25px;
-    padding: 5px;
+    padding: 1rem;
     clear: both;
 }
 .jpg{
@@ -56,7 +57,7 @@ figcaption{
 q{
     font-family: cursive;
     font-style: italic;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 ul li{
     list-style-type: none;
